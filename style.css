@@ -168,6 +168,11 @@
     }
 
     @media screen and (max-width: 900px) {
+        
+        .container {
+            width: 100%;
+        }
+
         #face-bloc {
             width: 100%;
         }
