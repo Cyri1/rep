@@ -18,25 +18,44 @@
 
     #icons-bloc {
         text-align: center;
+        display: flex;
     }
 
     .icons {
-        margin: 3%;
-
+        margin: auto;
     }
-
-    .li-old {
-        list-style-type: disc;
-    }
-
-    .li-now {
-        list-style-type: circle;
-
-    }
-
+    
     ul {
-        margin-top: 0em; 
-    }
+        list-style: none;
+        padding: 0;
+        margin-top: 0em;
+      }
+      li {
+        padding-left: 1.3em;
+      }
+
+      .li-old:before {
+        content: "\f192";
+        font-family: "Font Awesome 5 Free";
+        display: inline-block;
+        margin-left: -1.3em; 
+        width: 1.3em;
+        font-weight: 900;
+        font-size: smaller;
+        color: orange;
+      }
+
+      .li-now:before {
+        content: "\f192";
+        font-family: "Font Awesome 5 Free";
+        display: inline-block;
+        margin-left: -1.3em; 
+        width: 1.3em;
+        font-weight: 400;
+        font-size: smaller;
+        color: orange;
+
+      }
 
     .container {
         width: 75%;
@@ -106,7 +125,9 @@
         padding: 5%;
         flex: 1;
     }
-
+    #apropos {
+        flex: 1;
+    }
     .sb-title {
         background: #24333b;
         text-align: center;
