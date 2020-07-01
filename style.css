@@ -1,6 +1,7 @@
-    /* div {
-        border: solid 1px;
-    }  */
+     /* div {
+        border: solid 1px coral;
+        padding: 5px;
+    }   */
 
     body {
         background-color: black;
@@ -78,7 +79,7 @@
         width: 30%;
     }
 
-    #sidebar-main {
+    #main {
         display: flex;
         background: #344955;
         color: lightgrey;
@@ -95,7 +96,7 @@
         color: orange;
     }
 
-    #main {
+    #content-main {
         background: lightgrey;
         color: #344955;
         display: flex;
@@ -202,7 +203,7 @@
             flex-direction: column;
         }
 
-        #sidebar-main {
+        #main {
             flex-direction: column-reverse;
         }
 
