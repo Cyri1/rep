@@ -10,11 +10,11 @@
     }
 
     a {
-        color: lightgrey;
+        color: #EEEEEE;
     }
 
     #job {
-        text-decoration: underline solid orange;
+        text-decoration: underline solid #FB8C00;
     }
 
     #icons-bloc {
@@ -43,7 +43,7 @@
         width: 1.3em;
         font-weight: 900;
         font-size: smaller;
-        color: orange;
+        color: #FB8C00;
       }
 
       .li-now:before {
@@ -54,7 +54,7 @@
         width: 1.3em;
         font-weight: 400;
         font-size: smaller;
-        color: orange;
+        color: #FB8C00;
 
       }
 
@@ -68,37 +68,37 @@
 
     .icons-title {
         margin-right: 2%;
-        color: orange;
+        color: #FB8C00;
     }
 
     #sidebar {
         display: flex;
-        background: #344955;
-        color: lightgrey;
+        background: #455A64;
+        color: #EEEEEE;
         flex-direction: column;
         width: 30%;
     }
 
     #main {
         display: flex;
-        background: #344955;
-        color: lightgrey;
+        background: #455A64;
+        color: #EEEEEE;
     }
 
     #header {
-        background: #344955;
-        color: lightgrey;
+        background: #455A64;
+        color: #EEEEEE;
         display: flex;
         flex-direction: row;
     }
 
     #prenom {
-        color: orange;
+        color: #FB8C00;
     }
 
     #content-main {
-        background: lightgrey;
-        color: #344955;
+        background: #EEEEEE;
+        color: #455A64;
         display: flex;
         flex: 1;
         flex-direction: column;
@@ -108,12 +108,13 @@
         width: 50%;
         display: flex;
         margin: auto;
-        filter: drop-shadow(0 0 0.5em orange);
-    }
+        filter: drop-shadow(0 0 0.5em #FB8C00);
+        -webkit-filter: drop-shadow(0 0 0.5em #FB8C00);
+}
 
     #face-bloc {
-        background: #344955;
-        color: lightgrey;
+        background: #455A64;
+        color: #EEEEEE;
         margin: 5% auto;
         align-items: center;
         justify-content: center;
@@ -121,8 +122,8 @@
     }
 
     #name {
-        background: lightgrey;
-        color: #344955;
+        background: #EEEEEE;
+        color: #455A64;
         padding: 5%;
         flex: 1;
     }
@@ -130,20 +131,20 @@
         flex: 1;
     }
     .sb-title {
-        background: #24333b;
+        background: #263238;
         text-align: center;
         font-size: 1.2em;
         padding-top: 0.3em;
         padding-bottom: 0.3em;
         border-left: solid 0.5em;
         border-bottom: solid 0.1em;
-        border-color: orange;
+        border-color: #FB8C00;
 
     }
 
     .m-title {
         border-bottom: solid 0.1em;
-        border-color: orange;
+        border-color: #FB8C00;
         margin-bottom: 2%;
         font-size: 1.2em;
 
